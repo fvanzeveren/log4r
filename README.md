@@ -5,7 +5,7 @@ In log4r, logging messages are managed by "loggers". There are five loggers, one
 
 Each logger can be activated or disabled independently. When a logger is disabled, logging messages whose level is managed by the "logger" are no longer delivered.
 
-Loggers delegates the actual delivery of logging messages to "appenders". You can link as many appenders as you like to a logger. The logger will instruct each appender to deliver logging messages for which the logger is responsible (i.e. depending on the level of the logging message).
+Loggers delegate the actual delivery of logging messages to "appenders". You can link as many appenders as you like to a logger. The logger will instruct each appender to deliver logging messages for which the logger is responsible (i.e. depending on the level of the logging message).
 ## Guidelines for logging level
 - fatal, designates very severe error events that will presumably lead the application to abort.
 - error, designates error events that might still allow the application to continue running.
